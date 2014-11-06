@@ -1,0 +1,11 @@
+18:45:07 **** Rebuild of configuration Debug for project LessonProject ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LessonProject.o" "..\\src\\LessonProject.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Person.o" "..\\src\\Person.cpp" 
+..\src\Person.cpp: In member function 'void feicui::Person::setAge(int)':
+..\src\Person.cpp:30:6: warning: unused variable 'num'
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Man.o" "..\\src\\Man.cpp" 
+g++ -o LessonProject.exe "src\\Person.o" "src\\Man.o" "src\\LessonProject.o" 
+
+18:45:14 Build Finished (took 7s.332ms)
+

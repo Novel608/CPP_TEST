@@ -1,0 +1,9 @@
+18:45:34 **** Incremental Build of configuration Debug for project FunctionPointer ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FunctionPointer.o" "..\\src\\FunctionPointer.cpp" 
+In file included from f:\environment\64\eclipse-cpp\mingw\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/thread:35:0,
+                 from ..\src\FunctionPointer.cpp:10:
+f:\environment\64\eclipse-cpp\mingw\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/c++0x_warning.h:31:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+
+18:45:35 Build Finished (took 380ms)
+
